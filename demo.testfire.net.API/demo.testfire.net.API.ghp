@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="I20220902_1400" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on January 10, 2023"
+    creationVersion="10.5.0" extDocPrefix=""
+    name="demo.testfire.net.API" owner="appscanadmin"
+    rulesCacheUri="%%PROJECT/ROOT%%Rules"
+    updateResultsDbOnItemChange="false" uuid="00000185-9cc6-84b1-000c-eaebf569c94a">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+        <environmentVariable evdescription="" key="access_token" value=""/>
+        <environmentVariable evdescription="" key="AccountId" value=""/>
+        <environmentVariable evdescription="" key="AccountNumber" value=""/>
+        <environmentVariable evdescription="" key="applicationId" value=""/>
+        <environmentVariable evdescription="" key="asc_xsrf_token" value=""/>
+        <environmentVariable evdescription="" key="Authorization" value=""/>
+        <environmentVariable evdescription="" key="baseUrl" value=""/>
+        <environmentVariable evdescription="" key="baseURL_HOST" value="ec2amaz-44nu39t"/>
+        <environmentVariable evdescription="" key="baseURL_PATH" value="/ase/api"/>
+        <environmentVariable evdescription="" key="baseURL_PORT" value="9443"/>
+        <environmentVariable evdescription="" key="completedScanJobId" value=""/>
+        <environmentVariable evdescription="" key="ETag" value=""/>
+        <environmentVariable evdescription="" key="folderId" value=""/>
+        <environmentVariable evdescription="" key="jobId" value=""/>
+        <environmentVariable evdescription="" key="password" value="w@tchf1re@ppscan"/>
+        <environmentVariable evdescription="" key="policyId" value=""/>
+        <environmentVariable evdescription="" key="reportId" value=""/>
+        <environmentVariable evdescription="" key="templateId" value=""/>
+        <environmentVariable evdescription="" key="username" value="EC2AMAZ-44NU39T\\appscanadmin"/>
+    </rootEnvironmentConfig>
+    <dateTimeConfig date="yyyy-mm-dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss"/>
+    <serverSettings ghRepositoryURL="https://localhost:5443/RTCP"
+        trustSource="INBUILT_CA" trustStorePath="">
+        <dbConnectionParameters maxConnections="5" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsOption="false" dpsPass="#com.ghc.1!e21f" dpsUser=""
+                driverClass="" password="#com.ghc.1!e2f1" schema=""
+                url="" user="">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!04c2"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern=""
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="false" hostname="" port="443"
+            projectId="-1" projectName="--No Project Selected--"
+            publishResults="false" trustSource="TRUST_ALL"
+            trustStorePassword="#com.ghc.1!8293" trustStorePath=""/>
+    </serverSettings>
+    <permissionsSettings ADtrustSource="NONE"
+        ADtrustStorePassword="#com.ghc.1!237b" ADtrustStorePath=""
+        autoLogin="true" host="EC2AMAZ-44NU39T"
+        permFactId="ldap.permissions.factory.none" port="389" pswd="xx9HH5R9h8WuYPY3luWvpGKr5W6KFb7Aq6HsVn5bl2A=$3Vz8okzdENlOMX0eHlhdtlsXKrIL8Yb+q7CLJ/xkSLQ="/>
+    <resultPublishers disableAll="false"/>
+</_c>

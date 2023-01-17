@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1673373122011"
+    createdUser="appscanadmin" id="540cfeaa:1859cc68751:-77c6"
+    selfDescribing="ec2amaz-44nu39t (192.168.69.76)"
+    type="host_machine_resource" updatedTimestamp="1673373122011"
+    updatedUser="appscanadmin" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="192.168.69.76" user_host_name="ec2amaz-44nu39t">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>

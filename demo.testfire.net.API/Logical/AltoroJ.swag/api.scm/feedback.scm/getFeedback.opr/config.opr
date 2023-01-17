@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1673945858004"
+    createdUser="appscanadmin"
+    id="-40e3e17c:1859d493cce:-7098:1886398715:-807255066"
+    type="operation_resource" updatedTimestamp="1673945858004"
+    updatedUser="appscanadmin" version="1.0">
+    <syncdetails compare="getFeedback" lastSynced="1673945858004" sourceid="-40e3e17c:1859d493cce:-7098">
+        <sourcepath path="paths"/>
+        <sourcepath path="/api/feedback/{feedbackId}"/>
+        <sourcepath path="get"/>
+    </syncdetails>
+    <documentation>
+        <description value="Retrieve feedback"/>
+    </documentation>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="175,110,232"
+        dependencies="-40e3e17c:1859d493cce:-7098:687458400:408339756,-40e3e17c:1859d493cce:-7098:779543495:-332410441"
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeEndFormatterID="HTTP_Message"
+        invokeEndTransportID="-40e3e17c:1859d493cce:-7098:687458400:408339756"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="-40e3e17c:1859d493cce:-7098:687458400:408339756"
+        maxTime="0" mepEndUsed="true"
+        mepStartSchemaID="-40e3e17c:1859d493cce:-7098:779543495:-332410441"
+        mepStartSchemaNodeFormatter="rest_nodeformatter"
+        mepStartSchemaroot="getFeedback" mepType="IN_OUT" minTime="0"
+        stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="-40e3e17c:1859d493cce:-7098:687458400:408339756">
+        <invokeHeaderNode meTy="Message" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="Method" type="7" value="GET" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="GET" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7" value="" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                    <_c meTy="String" name="Accept" type="7"
+                        value="application/json" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="0">
+                                <fieldAction exp="application/json" type="0"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                    </_c>
+                    <_c meTy="Object" name="Authorization" type="13" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="0">
+                                <fieldAction type="5"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                    </_c>
+                </_c>
+                <_c meTy="Boolean" name="followRedirects" type="8"
+                    value="true" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="true" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="GET"
+                URL="/api/feedback/{feedbackId}"
+                consumerType="Participate" filterHeaders="true"
+                filterMethod="true" filterResourcePath="true" template="true">
+                <filterHeadersList>
+                    <header disabled="true" name="Accept" type="7" value="application/json"/>
+                </filterHeadersList>
+            </_c>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>

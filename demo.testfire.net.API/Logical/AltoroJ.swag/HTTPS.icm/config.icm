@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1673945857847"
+    createdUser="appscanadmin"
+    id="-40e3e17c:1859d493cce:-7098:687458400:408339756"
+    type="infrastructure_component_resource"
+    updatedTimestamp="1673945857847" updatedUser="appscanadmin" version="1.1">
+    <syncdetails compare="LOGICALHTTPSdemo.testfire.net"
+        lastSynced="1673945857847" sourceid="-40e3e17c:1859d493cce:-7098">
+        <sourcepath path="HTTPS"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig infrastructureType="http_transport">
+        <recordingSettings colour="124,199,255"/>
+    </resourceConfig>
+</editableResource>

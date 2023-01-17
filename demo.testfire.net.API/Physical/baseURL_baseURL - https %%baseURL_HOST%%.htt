@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1673373119965"
+    createdUser="appscanadmin"
+    id="540cfeaa:1859cc68751:-7b65:1985954759:1544155186"
+    selfDescribing="baseURL:baseURL - https %%baseURL_HOST%%"
+    type="http_transport" updatedTimestamp="1673373119965"
+    updatedUser="appscanadmin" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="baseURL:baseURL" transportTemplateName="HTTP">
+        <messageProperties
+            ReasonPhrase="No Stub available that matches the request"
+            clientConnectionsPerHost="100" credDomain=""
+            credPassword="#com.ghc.1!5e9c" credPreemptive="false"
+            credType="0" credUser="" httpHost="%%baseURL_HOST%%"
+            httpNtlmDomain="" httpPort="%%baseURL_PORT%%"
+            httpProxyHost="" httpProxyPassword="#com.ghc.1!1040"
+            httpProxyPort="" httpProxyUsername="" httpResourceRoot=""
+            httpServerSocketBindAddressOverride=""
+            httpServerSocketPortOverride="" httpSocketTimeout=""
+            httpTimeoutResponseCode="503" httpVirtualHost=""
+            useSsl="true" version="4">
+            <kerberos Anon="false" CStyle="Username / Password"
+                Conf="false" Custom="true" Enabled="false" Integ="false"
+                MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+            <oauth authURL="" clientassertion="" clientid=""
+                clientsecret="" enabled="false"
+                redirect_url="http://localhost:8080/callback"
+                refreshtoken="" scopes="" tokenendpoint=""/>
+        </messageProperties>
+    </resourceConfig>
+</editableResource>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1673372766592"
+    createdUser="appscanadmin" id="540cfeaa:1859cc68751:-7ddf"
+    selfDescribing="demo.testfire.net (65.61.137.117)"
+    type="host_machine_resource" updatedTimestamp="1673372766592"
+    updatedUser="appscanadmin" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="65.61.137.117" user_host_name="demo.testfire.net">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>

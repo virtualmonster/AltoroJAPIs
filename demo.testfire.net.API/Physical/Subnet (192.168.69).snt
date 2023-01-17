@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1673373123074"
+    createdUser="appscanadmin" id="540cfeaa:1859cc68751:-77c1"
+    selfDescribing="Subnet (192.168.69)" type="sub_net_resource"
+    updatedTimestamp="1673373123074" updatedUser="appscanadmin" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig subnet="192.168.69" user_sub_net_name="Subnet"/>
+</editableResource>

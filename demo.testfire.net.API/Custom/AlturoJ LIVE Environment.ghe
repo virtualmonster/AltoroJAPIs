@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1673946736380"
+    createdUser="appscanadmin" id="-40e3e17c:1859d493cce:-6da4"
+    type="environment_resource" updatedTimestamp="1673948026024"
+    updatedUser="appscanadmin" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+        <environmentVariable evdescription="" key="AccountId" value=""/>
+        <environmentVariable evdescription="" key="AccountNumber" value="800002"/>
+        <environmentVariable evdescription="" key="Authorization" value=""/>
+        <environmentVariable evdescription="" key="baseUrl" value="http://ec2amaz-44nu39t:8088/api"/>
+        <environmentVariable evdescription="" key="baseURL_PATH" value="/api"/>
+        <environmentVariable evdescription="" key="baseURL_PORT" value="9443"/>
+        <evbindings>
+            <evbinding
+                evLogicalItemId="-40e3e17c:1859d493cce:-7098:687458400:408339756" evPhysicalItemId="-40e3e17c:1859d493cce:-7098:-777590066:1544155186"/>
+            <evbinding
+                evLogicalItemId="540cfeaa:1859cc68751:-7b65:-1074879909:408339756" evPhysicalItemId="-40e3e17c:1859d493cce:-7098:-777590066:1544155186"/>
+        </evbindings>
+    </resourceConfig>
+</editableResource>
